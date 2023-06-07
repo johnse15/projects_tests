@@ -12,7 +12,7 @@ from google.cloud import storage
 
 from sqlalchemy import create_engine
 import psycopg2
-import postgresql_credentials
+import postgresql_credentials #Here I created a folder with the username and password for the database access
 
 
 class ipc_updater():
